@@ -26,9 +26,9 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         // The unique name for each instance
-        name: `pages`,
+        name: `images`,
         // Path to the directory
-        path: `${__dirname}/src/pages/`,
+        path: `${__dirname}/src/assets/images/`,
       },
     },
 

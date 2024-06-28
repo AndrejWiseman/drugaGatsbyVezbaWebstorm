@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from '../components/Navbar'
+import Navigacija from '../components/Navbar'
 
 
 const Layout = ({children}) => {
     return(
         <>
 
-            <Navbar />
+            <Navigacija />
 
             {children}
 
